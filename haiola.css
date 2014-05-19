@@ -135,3 +135,19 @@ h1,h2,h3,.mt,.mt1,.mte,
 .crossRefNote	{display: block; margin-top:.5em;margin-left:0em}
 .notebackref	{margin: 1em}
 .fine,.copyright	{font-size:10pt;color:#333333}
+
+ul.tnav	{list-style-type:none;padding:5;margin-left:0;text-align:center}
+.tnav li	{display:inline}
+.tnav a	{display:inline-block;border:1px solid #000;padding:5px;background-color:#4090FF;text-decoration:none;color:#000;border-radius:5px}
+.tnav a:visited	{color:#404000}
+.tnav a:link	{color:#000040}
+.tnav a:hover	{color:#FFFFFF;background-color:#204880}
+
+ul.vnav	{list-style-type:none;padding:5;margin-left:0;text-align:center;float:left}
+.vnav li	{list-style-type:none}
+.vnav a	{display:block;padding:3px;background-color:#036;border-bottom:1px solid #eee;text-decoration:none;width:12em}
+.vnav a:visited	{color:#ffff66}
+.vnav a:link	{color: #ffffff}
+.vnav a:hover	{background-color:#0520ff !important;color:#ffffff}
+
+div.bookList	{float:left;margin:0px;padding:3px;width:13em;background:rgb(223,255,255)}
